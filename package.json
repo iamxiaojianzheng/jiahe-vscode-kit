@@ -1,0 +1,86 @@
+{
+  "name": "jiahe-vscode-kit",
+  "displayName": "jiahe-vscode-kit",
+  "version": "0.0.1",
+  "publisher": "jiahe",
+  "description": "基于Vue的vscode插件包",
+  "author": {
+    "name": "家和"
+  },
+  "categories": ["Extension Packs"],
+  "icon": "",
+  "activationEvents": ["*"],
+  "engines": {
+    "vscode": "^1.42.1"
+  },
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.jiaheInitSettings",
+        "title": "jiaheInitSettings"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "vs:pack": "vsce package",
+    "vs:publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.57.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "14.x",
+    "eslint": "^7.27.0",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "glob": "^7.1.7",
+    "mocha": "^8.4.0",
+    "typescript": "^4.3.2",
+    "vscode-test": "^1.5.2"
+  },
+  "extensionPack": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "michelemelluso.code-beautifier",
+    "wwm.better-align",
+    "aaron-bond.better-comments",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "streetsidesoftware.code-spell-checker",
+    "msjsdiag.debugger-for-chrome",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "ecmel.vscode-html-css",
+    "sysoev.language-stylus",
+    "thisismanta.stylus-supremacy",
+    "qiu8310.minapp-vscode",
+    "chenxsan.vscode-standardjs",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "sodatea.velocity",
+    "octref.vetur",
+    "vscode-icons-team.vscode-icons",
+    "tomoki1207.pdf",
+    "dariofuzinato.vue-peek",
+    "sdras.vue-vscode-snippets",
+    "oysun.vuehelper",
+    "lihuiwang.vue-alias-skip",
+    "ant-design-vue.vscode-ant-design-vue-helper"
+  ],
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/xiao1272209235/jiahe-vscode-kit/issues",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiao1272209235/jiahe-vscode-kit.git"
+  },
+  "homepage": "https://github.com/xiao1272209235/jiahe-vscode-kit/blob/main/README.md"
+}
