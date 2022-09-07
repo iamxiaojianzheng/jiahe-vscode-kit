@@ -1,7 +1,7 @@
 {
   "name": "jiahe-vscode-kit",
   "displayName": "jiahe-vscode-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "jiahe",
   "description": "基于Vue的vscode插件包",
   "author": {
@@ -53,7 +53,7 @@
     "aaron-bond.better-comments",
     "ms-ceintl.vscode-language-pack-zh-hans",
     "streetsidesoftware.code-spell-checker",
-    "msjsdiag.debugger-for-chrome",
+    "ms-vscode.js-debug",
     "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
     "donjayamanne.githistory",
@@ -62,7 +62,7 @@
     "sysoev.language-stylus",
     "thisismanta.stylus-supremacy",
     "qiu8310.minapp-vscode",
-    "chenxsan.vscode-standardjs",
+    "standard.vscode-standard",
     "ms-vscode.vscode-typescript-tslint-plugin",
     "sodatea.velocity",
     "octref.vetur",
