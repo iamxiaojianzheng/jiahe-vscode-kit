@@ -1,15 +1,19 @@
 {
   "name": "jiahe-vscode-kit",
   "displayName": "jiahe-vscode-kit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "jiahe",
   "description": "基于Vue的vscode插件包",
   "author": {
     "name": "家和"
   },
-  "categories": ["Extension Packs"],
+  "categories": [
+    "Extension Packs"
+  ],
   "icon": "",
-  "activationEvents": ["*"],
+  "activationEvents": [
+    "*"
+  ],
   "engines": {
     "vscode": "^1.42.1"
   },
@@ -49,7 +53,7 @@
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
     "michelemelluso.code-beautifier",
-    "wwm.better-align",
+    "chouzz.vscode-better-align",
     "aaron-bond.better-comments",
     "ms-ceintl.vscode-language-pack-zh-hans",
     "streetsidesoftware.code-spell-checker",
@@ -66,13 +70,21 @@
     "ms-vscode.vscode-typescript-tslint-plugin",
     "sodatea.velocity",
     "octref.vetur",
+    "vue.volar",
     "vscode-icons-team.vscode-icons",
     "tomoki1207.pdf",
     "dariofuzinato.vue-peek",
     "sdras.vue-vscode-snippets",
     "oysun.vuehelper",
     "lihuiwang.vue-alias-skip",
-    "ant-design-vue.vscode-ant-design-vue-helper"
+    "ant-design-vue.vscode-ant-design-vue-helper",
+    "wayou.vscode-todo-highlight",
+    "kisstkondoros.vscode-gutter-preview",
+    "shd101wyy.markdown-preview-enhanced",
+    "chrmarti.regex",
+    "mikestead.dotenv",
+    "tamasfe.even-better-toml",
+    "mkxml.vscode-filesize"
   ],
   "license": "SEE LICENSE IN LICENSE.txt",
   "bugs": {
