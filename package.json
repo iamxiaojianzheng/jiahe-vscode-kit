@@ -1,7 +1,7 @@
 {
   "name": "jiahe-vscode-kit",
   "displayName": "jiahe-vscode-kit",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "jiahe",
   "description": "基于Vue的vscode插件包",
   "author": {
