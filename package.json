@@ -1,12 +1,17 @@
 {
   "name": "jiahe-vscode-kit",
   "displayName": "jiahe-vscode-kit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "jiahe",
   "description": "基于Vue的vscode插件包",
   "author": {
     "name": "家和"
   },
+  "keywords": [
+    "jiahe",
+    "kit",
+    "一键安装"
+  ],
   "categories": [
     "Extension Packs"
   ],
