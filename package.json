@@ -1,7 +1,7 @@
 {
   "name": "jiahe-vscode-kit",
   "displayName": "jiahe-vscode-kit",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "jiahe",
   "description": "前端常用的vscode插件包集合",
   "author": {
