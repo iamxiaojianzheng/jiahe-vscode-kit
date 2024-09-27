@@ -34,3 +34,11 @@
 ## 0.0.5 - 2024/09-27
 
 - update CHANGELOG.md
+
+## 0.0.6 - 2024/09-27
+
+- remove `octref.vetur`
+
+## 0.0.7 - 2024/09-27
+
+- update CHANGELOG.md
