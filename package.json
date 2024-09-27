@@ -3,7 +3,7 @@
   "displayName": "jiahe-vscode-kit",
   "version": "0.0.5",
   "publisher": "jiahe",
-  "description": "基于Vue的vscode插件包",
+  "description": "前端常用的vscode插件包集合",
   "author": {
     "name": "家和"
   },
@@ -74,7 +74,6 @@
     "standard.vscode-standard",
     "ms-vscode.vscode-typescript-tslint-plugin",
     "sodatea.velocity",
-    "octref.vetur",
     "vue.volar",
     "vscode-icons-team.vscode-icons",
     "tomoki1207.pdf",
